@@ -54,7 +54,7 @@ class _BodySignIn extends StatelessWidget {
         ),
         child: SingleChildScrollView(
           child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 50,vertical: 50),
+            padding: EdgeInsets.symmetric(horizontal: size.width * 0.1,vertical: 50),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.end,
               children: [
